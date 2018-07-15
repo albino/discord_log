@@ -98,5 +98,5 @@ while (1) {
 	usleep(500000);
 }
 
-say "Done. Got $count messages.";
+say STDERR "Done. Got $count messages.";
 close $file;
